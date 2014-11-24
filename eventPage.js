@@ -60,5 +60,5 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
 
 chrome.alarms.create('pm2_5', {
   when: Date.now(),
-  periodInMinutes: 1
+  periodInMinutes: 30
 });
