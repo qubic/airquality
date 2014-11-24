@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Air quality PM2.5 notifier",
+  "description": "This extension display air quality pm2.5 of the selected city (only support the city in zhejiang province of china right now)",
+  "version": "0.1",
+
+  "permissions": [
+    "storage",
+    "alarms",
+    "http://app.zjepb.gov.cn:8080/"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
+    },
+    "default_title": "PM2.5 notifier"
+  },
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  }
+}
