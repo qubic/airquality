@@ -44,6 +44,7 @@ function getCity() {
         }
     } else {
         console.warn('City is not been specified.');
+        chrome.tabs.create({url: "options.html"});
     }
   });
 }
