@@ -8,7 +8,7 @@
   "permissions": [
     "storage",
     "alarms",
-    "http://app.zjepb.gov.cn:8080/"
+    "http://www.zjepb.gov.cn/"
   ],
   "browser_action": {
     "default_icon": {

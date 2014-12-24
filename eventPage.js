@@ -1,8 +1,8 @@
-var zhejiangPM2_5URL = "http://app.zjepb.gov.cn:8080/wasdemo/search?channelid=168113";
+var zhejiangPM2_5URL = "http://www.zjepb.gov.cn/hbtmhwz/indexsnew/PM25realtime/";
 var cityInZhejiangMap = {};
 cityInZhejiangMap['hangzhou'] = '杭州';
-cityInZhejiangMap['ningbo'] = '杭州';
-cityInZhejiangMap['huzhou'] = '杭州';
+cityInZhejiangMap['ningbo'] = '宁波';
+cityInZhejiangMap['huzhou'] = '湖州';
 cityInZhejiangMap['jiaxing'] = '嘉兴';
 cityInZhejiangMap['shaoxing'] = '绍兴';
 cityInZhejiangMap['jinhua'] = '金华';
